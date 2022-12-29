@@ -1,0 +1,65 @@
+.hero-card-container {
+    width: 100%;
+    overflow-wrap: break-word;
+}
+.hero-card {
+    float: left;
+    width: 220px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+.hero-card:hover {
+    float: left;
+    width: 220px;
+    height: 300px;
+    border: 1px solid gold;
+    padding: 10px;
+    margin: 10px;
+    background-color: #888;
+    left: .1em;
+}
+.image-size {
+    display: block;
+    max-width: 230px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+.section {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+}
+.section-header {
+    height: 60px;
+    background-color: crimson;
+    color: #fff;
+    padding: 10px;
+    line-height: 40px;
+}
+.section-body {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.section-title {
+    padding-left: 25px;
+    font-size: 1.25rem;
+}
+.info-style {
+    color: blue;
+}
+.warn-style {
+    color: orange;
+}
+.debug-style {
+    color: green;
+}
+.error-style {
+    color: red;
+}
+.fatal-style {
+    color: black;
+}

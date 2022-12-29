@@ -1,0 +1,58 @@
+{
+    "stats": [
+        {
+            "id": "13",
+            "name": "Hulk",
+            "power": 95,
+            "crimesSolved": 25
+        },
+        {
+            "id": "11",
+            "name": "Antman",
+            "power": 65,
+            "crimesSolved": 15
+        },
+        {
+            "id": "12",
+            "name": "Batman",
+            "power": 75,
+            "crimesSolved": 32
+        },
+        {
+            "id": "14",
+            "name": "Ironman",
+            "power": 85,
+            "crimesSolved": 18
+        },
+        {
+            "id": "15",
+            "name": "Spiderman",
+            "power": 80,
+            "crimesSolved": 20
+        },
+        {
+            "id": "16",
+            "name": "Superman",
+            "power": 100,
+            "crimesSolved": 35
+        },
+        {
+            "id": "17",
+            "name": "Wonderwoman",
+            "power": 70,
+            "crimesSolved": 35
+        },
+        {
+            "id": "18",
+            "name": "Green lantern",
+            "power": 102,
+            "crimesSolved": 40
+        },
+        {
+            "id": "19",
+            "name": "New hero",
+            "power": 50,
+            "crimesSolved": 5
+        }
+    ]
+}

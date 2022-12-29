@@ -1,0 +1,70 @@
+h1 {
+    font-size: 1.2em;
+    color: #999;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 2em;
+    margin-top: 0;
+    padding-top: 0;
+}
+.main-title {
+    color: aquamarine;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: middle;
+}
+.nav-pills .nav-link {
+    border-radius: 0;
+}
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.section {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+}
+.section-header {
+    height: 60px;
+    background-color: crimson;
+    color: #fff;
+    padding: 10px;
+    line-height: 40px;
+}
+.section-body {
+    padding-top: 0;
+    padding-left: 0;
+}
+/* .section-title {
+    padding-left: 21px;
+    font-size: 1.25rem;
+} */
+.refresh-style {
+    padding-top: 10px;
+    padding-right: 5px;
+    float: right;
+    cursor: pointer;
+}
+.refresh-style:hover {
+    color: cornflowerblue;
+}
+.no-right-padding {
+    padding-right: 0;
+}
+.link-title {
+    padding-left: 10px;
+}
+
+@media (max-width: 320px) {
+    .main-title {
+        font-size: 1.5rem;
+    }
+    .no-right-padding {
+        padding-left: 0;
+    }
+}

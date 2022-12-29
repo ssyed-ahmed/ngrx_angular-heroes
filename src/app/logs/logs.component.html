@@ -1,0 +1,44 @@
+<div class="row">
+  <div class="col-sm-12">
+      <div class="section">
+        <div class="section-header">
+          <div class="row">
+            <div class="col-sm-12" appHeadingTitle>
+              {{title}}
+            </div>
+          </div>
+        </div>
+        <div class="section-body">              
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <td>No.</td>
+                <td>Type</td>
+                <td>Message</td>
+                <td>Time</td>
+                <td>Stack trace</td>
+              </tr> 
+            </thead>
+            <tbody>
+              <tr *ngFor="let message of messages; index as i">
+                <td>{{i+1}}</td>
+                <td>
+                  <div [ngSwitch]="message.severity">
+                    <div *ngSwitchCase="'0'"><i class="fas fa-info-circle info-style"></i> Info</div>
+                    <div *ngSwitchCase="'1'"><i class="fas fa-exclamation-triangle warn-style"></i> Warning</div>
+                    <div *ngSwitchCase="'2'"><i class="fas fa-bug debug-style"></i> Debug</div>
+                    <div *ngSwitchCase="'3'"><i class="fas fa-times-circle error-style"></i> Error</div>
+                    <div *ngSwitchCase="'4'"><i class="fas fa-skull fatal-style"></i> Fatal</div>
+                  </div>
+                </td>
+                <td>{{message.message}}</td>
+                <td>{{message.timestamp | date: 'medium'}}</td>
+                <td>{{message.stackTrace}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+  </div>
+</div>
+

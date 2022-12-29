@@ -1,0 +1,19 @@
+<div class="section">
+  <div class="section-header">
+    <div class="row">
+      <div class="col-sm-12" appHeadingTitle>
+          {{title}}
+      </div>
+    </div>
+  </div>
+  <div class="section-body">
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true" (click)="showOverview()">Overview</a>
+          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" (click)="showStatistics()">Statistics</a>
+          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" (click)="showCrimesSolved()">Crimes solved</a>
+        </div>
+      </nav>
+      <router-outlet></router-outlet>
+  </div>
+</div>

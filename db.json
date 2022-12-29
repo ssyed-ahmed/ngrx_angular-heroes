@@ -1,0 +1,103 @@
+{
+  "heroes": [
+    {
+      "id": 11, 
+      "name": "Antman", 
+      "icon": "antman",
+      "description": "This is ant man.",
+      "sex": "Male",
+      "rating": 3,
+      "stats": {}
+    },
+    {
+      "id": 12, 
+      "name": "Batman", 
+      "icon": "batman",
+      "description": "This is bat man.",
+      "sex": "Male",
+      "rating": 4,
+      "stats": {}
+    },
+    {
+      "id": 13, 
+      "name": "Hulk", 
+      "icon": "hulk",
+      "description": "This is hulk.",
+      "sex": "Male",
+      "rating": 5,
+      "stats": {}
+    },
+    {
+      "id": 14, 
+      "name": "Ironman", 
+      "icon": "ironman",
+      "description": "This is iron man.",
+      "sex": "Male",
+      "rating": 4,
+      "stats": {}
+    },
+    {
+      "id": 15, 
+      "name": "Spiderman", 
+      "icon": "spiderman",
+      "description": "This is spider man.",
+      "sex": "Male",
+      "rating": 5,
+      "stats": {}
+    },
+    {
+      "id": 16, 
+      "name": "Superman", 
+      "icon": "superman",
+      "description": "This is super man.",
+      "sex": "Male",
+      "rating": 5,
+      "stats": {}
+    },
+    {
+      "id": 17, 
+      "name": "Wonderwoman", 
+      "icon": "wonderwoman",
+      "description": "This is wonder woman.",
+      "sex": "Female",
+      "rating": 3,
+      "stats": {}
+    },
+    {
+      "id": 18, 
+      "name": "Green Lantern", 
+      "icon": "greenlantern",
+      "description": "This is green lantern.",
+      "sex": "Male",
+      "rating": 3,
+      "stats": {}
+    },
+    {
+      "id": 19, 
+      "name": "Mocking Bird", 
+      "icon": "mockingbird",
+      "description": "This is mocking bird.",
+      "sex": "Female",
+      "rating": 3,
+      "stats": {}
+    },
+    {
+      "id": 20, 
+      "name": "Black Widow", 
+      "icon": "blackwidow",
+      "description": "This is black widow.",
+      "sex": "Female",
+      "rating": 4,
+      "stats": {}
+    },
+    {
+      "id": 21, 
+      "name": "New Hero", 
+      "icon": "newhero",
+      "description": "This is new hero.",
+      "sex": "Male",
+      "rating": 2,
+      "stats": {}
+    }
+  ]
+}
